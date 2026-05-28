@@ -6,8 +6,8 @@ import base64
 import statistics
 import random
 
-MAX_NODES = 100
-TIMEOUT = 2.2
+MAX_NODES = 80
+TIMEOUT = 2.5
 
 subs = open("subs.txt","r",encoding="utf-8").read().splitlines()
 
@@ -54,18 +54,29 @@ for n in nodes:
 
 
 # -----------------------
-# 3. ISP-LIKE BEHAVIOR MODEL
+# 3. MCI MOBILE SIMULATION MODEL
 # -----------------------
-def simulate_isp_noise(lat):
+def mci_mobile_model(lat):
     """
-    Simulates mobile ISP behavior:
-    - MCI has jitter + occasional spikes
+    Simulates real mobile network behavior:
+    - jitter bursts
+    - congestion spikes
+    - unstable routing
     """
-    noise = random.uniform(0, lat * 0.3)
-    spike = random.choice([0, 0, 0, lat * 0.8])  # rare spike
-    return lat + noise + spike
+
+    jitter = random.uniform(0, lat * 0.4)
+    spike = 0
+
+    # occasional congestion spike (very important for MCI behavior)
+    if random.random() < 0.2:
+        spike = lat * random.uniform(0.5, 1.5)
+
+    return lat + jitter + spike
 
 
+# -----------------------
+# 4. TEST NODE
+# -----------------------
 def test_node(host, port):
     samples = []
 
@@ -81,33 +92,28 @@ def test_node(host, port):
 
             lat = time.time() - start
 
-            # simulate ISP-like instability
-            lat = simulate_isp_noise(lat)
+            # simulate MCI network behavior
+            lat = mci_mobile_model(lat)
 
             samples.append(lat)
 
         except:
             return None
 
-    if len(samples) < 2:
-        return None
-
     avg = statistics.mean(samples)
     jitter = statistics.pstdev(samples)
 
-    # ISP-aware scoring model
-    stability_score = 1 / (avg + jitter * 2)
+    # MCI score model
+    stability = 1 / (avg + jitter * 2)
+    penalty = jitter * 1.8
 
-    # penalize unstable routes (mobile-like behavior)
-    penalty = jitter * 1.5
+    score = stability - penalty
 
-    final_score = stability_score - penalty
-
-    return avg, jitter, final_score
+    return avg, jitter, score
 
 
 # -----------------------
-# 4. RUN TESTS
+# 5. RUN TESTS
 # -----------------------
 results = []
 
@@ -125,23 +131,23 @@ for i, (host, port, node) in enumerate(parsed):
 
 
 # -----------------------
-# 5. SORTING
+# 6. SORT & CLASSIFY
 # -----------------------
 results.sort(reverse=True)
 
-best_mci_like = [x[3] for x in results if x[0] > 2.5]
-stable_mci_like = [x[3] for x in results if 1.2 < x[0] <= 2.5]
-weak = [x[3] for x in results if x[0] <= 1.2]
+mci_best = [x[3] for x in results if x[0] > 2.8]
+mci_stable = [x[3] for x in results if 1.3 < x[0] <= 2.8]
+mci_weak = [x[3] for x in results if x[0] <= 1.3]
 
 
 # -----------------------
-# 6. OUTPUT
+# 7. OUTPUT
 # -----------------------
-open("mci_best.txt","w",encoding="utf-8").write("\n".join(best_mci_like))
-open("mci_stable.txt","w",encoding="utf-8").write("\n".join(stable_mci_like))
-open("mci_weak.txt","w",encoding="utf-8").write("\n".join(weak))
+open("mci_best.txt","w",encoding="utf-8").write("\n".join(mci_best))
+open("mci_stable.txt","w",encoding="utf-8").write("\n".join(mci_stable))
+open("mci_weak.txt","w",encoding="utf-8").write("\n".join(mci_weak))
 
-print("BEST MCI-LIKE:", len(best_mci_like))
-print("STABLE:", len(stable_mci_like))
-print("WEAK:", len(weak))
+print("MCI BEST:", len(mci_best))
+print("MCI STABLE:", len(mci_stable))
+print("MCI WEAK:", len(mci_weak))
 print("DONE")
