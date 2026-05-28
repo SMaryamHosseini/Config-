@@ -1,28 +1,39 @@
-name: run
+name: build-sub
 
 on:
-  push:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */6 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.11
+          python-version: "3.11"
 
-      - run: pip install requests
+      - name: Install deps
+        run: pip install requests
 
-      - run: python filter.py
+      - name: Run filter
+        run: python filter.py
 
-      - name: upload result
-        uses: actions/upload-artifact@v4
-        with:
-          name: sub-result
-          path: mci_best.txt
+      # 🔥 مهم: commit + push درست
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add mci_best.txt
+
+          git commit -m "update sub" || echo "no changes"
+
+          git pull --rebase origin main || true
+
+          git push
