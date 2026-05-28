@@ -1,41 +1,28 @@
-name: update
+name: run
 
 on:
+  push:
   workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"
-
-permissions:
-  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+      - uses: actions/checkout@v4
 
-    - name: Setup Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.11"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
 
-    - name: Install dependencies
-      run: pip install requests
+      - run: pip install requests
 
-    - name: Run filter script
-      run: python filter.py
+      - run: python filter.py
 
-    - name: Commit and push (FIXED)
-      run: |
-        git config --global user.name github-actions
-        git config --global user.email actions@github.com
-
-        git add mci.txt
-
-        git commit -m "auto update" || echo "no changes"
-
-        git push --force origin main
+      - name: upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: sub-result
+          path: mci_best.txt
