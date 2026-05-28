@@ -1,15 +1,12 @@
-import requests
 import socket
 import ssl
+import time
+import requests
 import base64
+import statistics
 
-# -----------------------
-# CONFIG (خیلی مهم)
-# -----------------------
-MAX_NODES = 50
-SOCKET_TIMEOUT = 2
-
-socket.setdefaulttimeout(SOCKET_TIMEOUT)
+MAX_NODES = 80
+TIMEOUT = 2
 
 subs = open("subs.txt","r",encoding="utf-8").read().splitlines()
 
@@ -23,68 +20,109 @@ for url in subs:
         r = requests.get(url, timeout=10)
         text = r.text.strip()
 
-        # try base64 decode
         try:
             decoded = base64.b64decode(text + "==").decode(errors="ignore")
         except:
             decoded = text
 
         for line in decoded.splitlines():
-            line = line.strip()
             if "vless://" in line or "vmess://" in line or "trojan://" in line:
                 nodes.append(line)
 
     except:
         continue
 
-# limit to prevent freeze
 nodes = nodes[:MAX_NODES]
 
 print("TOTAL NODES:", len(nodes))
 
 
 # -----------------------
-# 2. SAFE TLS CHECK
+# 2. PARSE
 # -----------------------
-def test_node(host, port):
+parsed = []
+
+for n in nodes:
     try:
-        ctx = ssl.create_default_context()
-        sock = socket.create_connection((host, port), timeout=2)
-        ssock = ctx.wrap_socket(sock, server_hostname=host)
-        ssock.close()
-        return True
-    except:
-        return False
-
-
-# -----------------------
-# 3. test loop (SAFE)
-# -----------------------
-good = []
-
-for i, n in enumerate(nodes):
-    try:
-        if "@" not in n:
-            continue
-
         hp = n.split("@")[1]
         host = hp.split(":")[0]
         port = int(hp.split(":")[1].split("?")[0])
+        parsed.append((host, port, n))
+    except:
+        continue
 
-        if test_node(host, port):
-            good.append(n)
 
-        print(f"{i+1}/{len(nodes)} checked")
+# -----------------------
+# 3. MULTI METRIC TEST
+# -----------------------
+def test_node(host, port):
+    latencies = []
+
+    for _ in range(3):  # multi-sample (important)
+        try:
+            start = time.time()
+
+            sock = socket.create_connection((host, port), timeout=TIMEOUT)
+
+            # TLS handshake test (realistic quality check)
+            ctx = ssl.create_default_context()
+            ssock = ctx.wrap_socket(sock, server_hostname=host)
+
+            ssock.close()
+
+            latencies.append(time.time() - start)
+
+        except:
+            return None
+
+    if not latencies:
+        return None
+
+    avg = statistics.mean(latencies)
+    jitter = statistics.pstdev(latencies) if len(latencies) > 1 else 0
+
+    # scoring model (MCI-like weighting)
+    score = (1 / avg) - (jitter * 2)
+
+    return avg, jitter, score
+
+
+# -----------------------
+# 4. RUN TESTS
+# -----------------------
+results = []
+
+for i, (host, port, node) in enumerate(parsed):
+    try:
+        res = test_node(host, port)
+        if res:
+            avg, jitter, score = res
+            results.append((score, avg, jitter, node))
+
+        print(f"{i+1}/{len(parsed)}")
 
     except:
         continue
 
 
 # -----------------------
-# 4. OUTPUT (always create file)
+# 5. SORTING (REAL QUALITY)
 # -----------------------
-with open("mci_best.txt","w",encoding="utf-8") as f:
-    f.write("\n".join(good))
+results.sort(reverse=True)
 
-print("GOOD NODES:", len(good))
+best = [x[3] for x in results if x[0] > 5]
+stable = [x[3] for x in results if 2 < x[0] <= 5]
+weak = [x[3] for x in results if x[0] <= 2]
+
+
+# -----------------------
+# 6. OUTPUT FILES
+# -----------------------
+open("mci_best.txt","w",encoding="utf-8").write("\n".join(best))
+open("mci_stable.txt","w",encoding="utf-8").write("\n".join(stable))
+open("mci_weak.txt","w",encoding="utf-8").write("\n".join(weak))
+
+print("BEST:", len(best))
+print("STABLE:", len(stable))
+print("WEAK:", len(weak))
 print("DONE")
