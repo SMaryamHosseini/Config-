@@ -1,7 +1,7 @@
 import requests
 import socket
-import ssl
 import re
+import base64
 import time
 
 SUBS = [
@@ -10,33 +10,25 @@ SUBS = [
 
 TIMEOUT = 2
 
-# ---------- extract IP ----------
-def extract_ips(text):
-    return re.findall(r'@([\d\.]+):', text)
+def decode(text):
+    try:
+        return base64.b64decode(text).decode("utf-8", errors="ignore")
+    except:
+        return text
 
-# ---------- TCP test ----------
-def tcp_check(ip, port=443):
+def extract_hosts(text):
+    return re.findall(r'@([\w\.\-]+):', text)
+
+def tcp_check(ip):
     try:
         s = socket.socket()
         s.settimeout(TIMEOUT)
-        s.connect((ip, port))
+        s.connect((ip, 443))
         s.close()
         return True
     except:
         return False
 
-# ---------- TLS handshake test (strong signal) ----------
-def tls_check(ip, sni="www.google.com"):
-    try:
-        ctx = ssl.create_default_context()
-        s = socket.create_connection((ip, 443), timeout=TIMEOUT)
-        ssl_sock = ctx.wrap_socket(s, server_hostname=sni)
-        ssl_sock.close()
-        return True
-    except:
-        return False
-
-# ---------- latency test ----------
 def latency(ip):
     try:
         start = time.time()
@@ -46,52 +38,29 @@ def latency(ip):
     except:
         return 9999
 
-reachable = []
-dead = []
+results = []
 
 for sub in SUBS:
     print("FETCH:", sub)
 
-    try:
-        raw = requests.get(sub, timeout=20).text
-    except Exception as e:
-        print("SUB ERROR:", e)
-        continue
+    raw = requests.get(sub, timeout=20).text
+    decoded = decode(raw)
 
-    ips = list(set(extract_ips(raw)))
-    print("TOTAL IPS:", len(ips))
+    hosts = list(set(extract_hosts(decoded)))
 
-    for i, ip in enumerate(ips):
-        print(f"{i+1}/{len(ips)} testing {ip}")
+    print("TOTAL HOSTS:", len(hosts))
 
-        # step 1: TCP
-        if not tcp_check(ip):
-            dead.append(ip)
-            continue
+    for i, h in enumerate(hosts):
+        if tcp_check(h):
+            ping = latency(h)
+            results.append((h, ping))
 
-        # step 2: TLS (important for CDN reality)
-        if not tls_check(ip):
-            dead.append(ip)
-            continue
+results = list(set(results))
+results.sort(key=lambda x: x[1])
 
-        # step 3: latency score
-        ping = latency(ip)
-
-        reachable.append((ip, ping))
-
-# remove duplicates
-reachable = list(set(reachable))
-reachable.sort(key=lambda x: x[1])
-
-# ---------- save ----------
-with open("mci_reachable.txt", "w") as f:
-    for ip, ping in reachable:
-        f.write(f"{ip} | {int(ping)}ms\n")
-
-with open("dead.txt", "w") as f:
-    for ip in dead:
-        f.write(ip + "\n")
+with open("result.txt", "w") as f:
+    for ip, p in results:
+        f.write(f"{ip} | {int(p)}ms\n")
 
 print("DONE")
-print("REACHABLE:", len(reachable))
-print("DEAD:", len(dead))
+print("GOOD:", len(results))
