@@ -1,15 +1,13 @@
 import requests
 import base64
 import re
+from urllib.parse import unquote
 
 SUBS = [
     "https://raw.githubusercontent.com/barry-far/V2ray-config/main/All_Configs_base64_Sub.txt"
 ]
 
-# فقط این مدل‌ها رو نگه میداریم:
-# ws + no tls + port 80/8080
-
-good = []
+domains = []
 
 # ---------- decode ----------
 def decode_sub(text):
@@ -18,7 +16,24 @@ def decode_sub(text):
     except:
         return text
 
-# ---------- extract ----------
+# ---------- extract host ----------
+def extract_host(cfg):
+
+    # host=
+    m = re.search(r'host=([^&]+)', cfg, re.IGNORECASE)
+
+    if m:
+        return unquote(m.group(1)).strip()
+
+    # sni=
+    m = re.search(r'sni=([^&]+)', cfg, re.IGNORECASE)
+
+    if m:
+        return unquote(m.group(1)).strip()
+
+    return None
+
+# ---------- process ----------
 for sub in SUBS:
 
     print("FETCH:", sub)
@@ -49,14 +64,14 @@ for sub in SUBS:
         if "type=ws" not in lower:
             continue
 
-        # بدون tls/reality
+        # فقط بدون tls/reality
         if "security=tls" in lower:
             continue
 
         if "security=reality" in lower:
             continue
 
-        # فقط 80/8080
+        # فقط پورت 80/8080
         m = re.search(r'@[^:]+:(\d+)', line)
 
         if not m:
@@ -67,39 +82,41 @@ for sub in SUBS:
         if port not in ["80", "8080"]:
             continue
 
-        # استخراج host
-        host_match = re.search(r'host=([^&]+)', line)
+        host = extract_host(line)
 
-        host = host_match.group(1) if host_match else ""
+        if not host:
+            continue
 
-        # دامنه‌های مشکوک CDN حذف
+        # حذف CDN معروف
         bad_words = [
             "cloudflare",
             "akamai",
+            "fastly",
             "cdn",
             "edge",
-            "fastly"
+            "workers"
         ]
 
-        bad = False
+        skip = False
 
         for b in bad_words:
             if b in host.lower():
-                bad = True
+                skip = True
                 break
 
-        if bad:
+        if skip:
             continue
 
-        good.append(line)
+        domains.append(host)
 
-# حذف تکراری
-good = list(set(good))
+# unique
+domains = sorted(list(set(domains)))
 
-# ذخیره
-with open("mci.txt", "w", encoding="utf-8") as f:
-    for x in good:
-        f.write(x + "\n")
+# save
+with open("mci_domains.txt", "w", encoding="utf-8") as f:
+
+    for d in domains:
+        f.write(d + "\n")
 
 print("DONE")
-print("GOOD:", len(good))
+print("DOMAINS:", len(domains))
