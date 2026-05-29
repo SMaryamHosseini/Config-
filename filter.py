@@ -4,6 +4,7 @@ import re
 import socket
 import ssl
 import time
+import subprocess
 from concurrent.futures import ThreadPoolExecutor
 
 SUB_LINKS = [
@@ -11,18 +12,13 @@ SUB_LINKS = [
 ]
 
 TIMEOUT = 1.2
-SNI = "www.cloudflare.com"
+SNI = "www.google.com"
 
-# ساده‌سازی ASN detection بدون API
-ASN_HINTS = {
-    "CLOUDFLARE": ["104.", "172.64", "23.227", "141.101"],
-    "AWS": ["13.", "52.", "54.", "3."],
-    "GOOGLE": ["142.250", "142.251", "172.217"],
-    "MCI": ["185.", "78.", "5.", "151."]
-}
+ASN_API = "https://ipinfo.io/"
 
 mci = []
-others = []
+irancell = []
+unstable = []
 
 def decode(text):
     try:
@@ -34,33 +30,83 @@ def extract_ip(line):
     m = re.search(r'@([\d\.]+):', line)
     return m.group(1) if m else None
 
-def guess_asn(ip):
-    for k, prefixes in ASN_HINTS.items():
-        for p in prefixes:
-            if ip.startswith(p):
-                return k
-    return "UNKNOWN"
+
+# 🌐 REAL ASN CHECK
+def get_asn(ip):
+    try:
+        r = requests.get(f"{ASN_API}{ip}/json", timeout=2)
+        data = r.json()
+        return data.get("org", "UNKNOWN")
+    except:
+        return "UNKNOWN"
 
 
-def tls_test(ip, port=443):
+# 🌐 TRACEROUTE CHECK (light version)
+def trace(ip):
+    try:
+        result = subprocess.run(
+            ["traceroute", "-m", "10", ip],
+            capture_output=True,
+            text=True,
+            timeout=3
+        )
+        return result.stdout
+    except:
+        return ""
+
+
+# 🔐 TLS TEST
+def tls_test(ip):
     try:
         context = ssl.create_default_context()
         context.check_hostname = False
         context.verify_mode = ssl.CERT_NONE
 
-        s = socket.create_connection((ip, port), timeout=TIMEOUT)
+        s = socket.create_connection((ip, 443), timeout=TIMEOUT)
         s.settimeout(TIMEOUT)
 
         start = time.time()
-
         ssl_sock = context.wrap_socket(s, server_hostname=SNI)
         ssl_sock.close()
 
-        latency = time.time() - start
-        return True, latency
-
+        return True, time.time() - start
     except:
         return False, None
+
+
+def score(ip):
+    asn = get_asn(ip)
+    trace_data = trace(ip)
+    ok, lat = tls_test(ip)
+
+    if not ok:
+        return "BAD"
+
+    s = 0
+
+    # ASN scoring
+    if "MCI" in asn or "Telecommunication" in asn:
+        s += 4
+
+    if "Cloudflare" in asn:
+        s -= 3
+
+    # latency scoring
+    if lat < 0.2:
+        s += 3
+    elif lat < 0.5:
+        s += 1
+
+    # traceroute heuristic
+    if "10." in trace_data or "192.168" in trace_data:
+        s += 2
+
+    if s >= 5:
+        return "MCI"
+    elif s >= 2:
+        return "IRANCELL"
+    else:
+        return "UNSTABLE"
 
 
 def process(line):
@@ -71,23 +117,14 @@ def process(line):
     if not ip:
         return None
 
-    asn = guess_asn(ip)
+    result = score(ip)
 
-    ok, lat = tls_test(ip)
-
-    if not ok:
-        return None
-
-    score = lat
-
-    # scoring logic
-    if asn == "CLOUDFLARE" or asn == "AWS":
-        return ("OTHER", line)
-
-    if score < 0.3:
+    if result == "MCI":
         return ("MCI", line)
-
-    return ("OTHER", line)
+    elif result == "IRANCELL":
+        return ("IRANCELL", line)
+    else:
+        return ("UNSTABLE", line)
 
 
 for sub in SUB_LINKS:
@@ -101,7 +138,7 @@ for sub in SUB_LINKS:
 
     results = []
 
-    with ThreadPoolExecutor(max_workers=50) as ex:
+    with ThreadPoolExecutor(max_workers=30) as ex:
         for r in ex.map(process, lines):
             if r:
                 results.append(r)
@@ -109,19 +146,26 @@ for sub in SUB_LINKS:
 for t, v in results:
     if t == "MCI":
         mci.append(v)
+    elif t == "IRANCELL":
+        irancell.append(v)
     else:
-        others.append(v)
+        unstable.append(v)
 
 mci = list(set(mci))
-others = list(set(others))
+irancell = list(set(irancell))
+unstable = list(set(unstable))
 
 print("MCI:", len(mci))
-print("OTHER:", len(others))
+print("IRANCELL:", len(irancell))
+print("UNSTABLE:", len(unstable))
 
 with open("mci_best.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(mci))
 
+with open("irancell.txt", "w", encoding="utf-8") as f:
+    f.write("\n".join(irancell))
+
 with open("sub.txt", "w", encoding="utf-8") as f:
-    f.write("\n".join(mci + others))
+    f.write("\n".join(mci + irancell))
 
 print("DONE")
