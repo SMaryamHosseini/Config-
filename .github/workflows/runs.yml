@@ -33,7 +33,7 @@ jobs:
 
       - name: add files
         run: |
-          git add mci_domains.txt irancell.txt dead.txt || true
+          git add mci.txt irancell.txt dead.txt || true
 
       - name: commit
         run: |
