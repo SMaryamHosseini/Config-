@@ -45,12 +45,14 @@ vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.102:80?path=/&security=n
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.143:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#⚡@V2ray_official
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.143:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#@FREECONFIGSPLUS
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.143:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#T.me/erfwp
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.163:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#🔵@chillguy_vpn
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.27:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#T.me/erfwp
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.43:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AXX
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.43:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#@Black_Star_Vpn
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.43:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#@icv2ray
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.43:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#T.me/erfwp
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.68:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#%3E%3E%40outline_vpn%3A%3AXX
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.68:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#🔵@chillguy_vpn
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.165:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AXX
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.165:80?encryption=none&host=tt.andishehparenting.com&path=/&security=none&type=ws#🌝15@oneclickvpnkeys
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.210:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#%3E%3E%40outline_vpn%3A%3AXX
@@ -71,6 +73,7 @@ vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=n
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#🇩🇪All¹³ | @meliproxyy
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#filembad-96
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.154.211:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#%3E%3E%40outline_vpn%3A%3AXX
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.154.211:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#🔵@chillguy_vpn
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.66.44.211:80?encryption=none&host=tt.andishehparenting.com&security=none&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AXX
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.66.44.211:80?encryption=none&host=tt.andishehparenting.com&security=none&type=ws#🫜8@oneclickvpnkeys
 vless://4e55bf82-958c-0a2b-f4a8-be1cd1a6d06e@cre.vipnor.xyz:8080?path=nr2&security=&encryption=none&host=nr2.vipnoor.com&type=ws#🇮🇷37197 | ⚡️Telegram = t.me/SOSkeyNET
@@ -130,7 +133,6 @@ vless://b0155773-f2b3-4d65-911f-de76f4e44ed1@varzesh3.com:80?type=ws&encryption=
 vless://b270a6fd-0038-4544-acde-446b1af20cb7@185.143.233.217:80?path=/ws&security=none&encryption=none&host=s26.chehre-negar.ir&type=ws#@Black_Star_Vpn
 vless://ba642e98-3de2-409d-b129-e15767c175ee@varzesh3.com:80?type=ws&encryption=none&path=/ws&host=nobody.fasterspeed.ir&security=none#t.me/ConfigFori  -  Config 73729
 vless://ba642e98-3de2-409d-b129-e15767c175ee@varzesh3.com:80?type=ws&encryption=none&path=/ws&host=nobody.fasterspeed.ir&security=none#t.me/ConfigFori  -  Config 73732
-vless://be32aec6-9dde-4365-b574-2e0023462084@141.11.45.214:8080?encryption=none&host=net.hostingdata.ir&path=%2F&security=none&type=ws#%F0%9F%AB%9C55@oneclickvpnkeys
 vless://be32aec6-9dde-4365-b574-2e0023462084@141.11.45.214:8080?path=/&security=none&encryption=none&host=net.hostingdata.ir&type=ws#Brayirani
 vless://c0898128-cd43-4224-a4b5-80b2aadd1007@varzesh3.com:80/?type=ws&encryption=none&path=/&host=proto.helexm.ir&security=none#protiFi-6805
 vless://c0909646-31ce-49d5-8210-d03dbfa0294c@speedtest.net:80?encryption=none&type=ws&path=/&host=my-server-test.global.fastly.net#​
