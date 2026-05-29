@@ -1,4 +1,5 @@
 import requests
+import base64
 import re
 
 SUBS = [
@@ -13,16 +14,28 @@ CDN = [
 
 good = []
 
+def decode_base64(text):
+    try:
+        return base64.b64decode(text).decode("utf-8", errors="ignore")
+    except:
+        return ""
+
 def extract_ip(line):
     m = re.search(r'@([\d\.]+):', line)
     return m.group(1) if m else None
 
 for url in SUBS:
     print("FETCH:", url)
-    text = requests.get(url, timeout=20).text
 
-    for line in text.splitlines():
-        if not line.startswith("vless://"):
+    raw = requests.get(url, timeout=20).text
+    decoded = decode_base64(raw)
+
+    lines = decoded.splitlines()
+
+    print("LINES:", len(lines))
+
+    for line in lines:
+        if "vless://" not in line:
             continue
 
         ip = extract_ip(line)
@@ -31,15 +44,12 @@ for url in SUBS:
 
         for c in CDN:
             if ip.startswith(c):
-                good.append(line)   # ✔️ مهم: کل کانفیگ
+                good.append(line)
                 break
 
 good = list(set(good))
 
 with open("mci.txt", "w", encoding="utf-8") as f:
-    f.write("\n".join(good))
-
-with open("irancell.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(good))
 
 print("DONE")
