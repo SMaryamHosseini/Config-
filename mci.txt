@@ -1,27 +1,26 @@
 vless://006e4730-9370-48fa-a7be-98e49833ca6e@185.143.234.235:80?encryption=none&type=ws&path=/&host=felorida4.newcallapphelper.online#t.me/ConfigFori  -  Config 73745
 vless://01f750a7-7e19-4b4a-9119-46a6d582a966@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
+vless://043aa853-3937-441f-85f0-e767bbdd5a75@anten.ir:80?path=/&security=&encryption=none&host=P2.nazshap.ir&type=ws#🇮🇷37366 | ⚡️Telegram = t.me/SOSkeyNET
 vless://056d10f1-4ebd-40e1-9f78-c7e11fce5258@speedtest.net:80?path=/download&security=&encryption=none&host=sabzb2.global.ssl.fastly.net&type=ws#@KAFING_2
 vless://06383d11-1f02-4237-b3e1-e24a287e707b@bmi.ir:8080?path=/&security=&encryption=none&host=cloud.tokyoservice.ir&type=ws#@icv2ray
 vless://066f670d-1333-42b0-b2a1-477cc0711c85@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#@SayanStoree
+vless://0b5b7afb-437b-4de8-9c3a-96f16e1661c3@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#🔵@chillguy_vpn
+vless://0b5b7afb-437b-4de8-9c3a-96f16e1661c3@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#🔵@config_free2
 vless://0b6844c6-49fd-4110-830d-ad4a30ca32c5@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#@SayanStoree
 vless://0c422f0c-5ada-4ef7-8294-0f383b42ad65@snapp.ir:80?type=ws&path=/&host=kabotar.garfar.ir&security=none#@ehsawn8-5gig
 vless://0c7b16ce-3bb6-4606-a389-b6c7dd79007a@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
 vless://0ea2b3de-b3c0-454c-b214-2c4f00694d75@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
 vless://100fc429-4824-482e-ad2c-ce70d25e11cc@snapp.ir:8080?path=/&security=none&encryption=none&host=simorgh.darerio.ir&type=ws#t.me/ConfigFori  -  Config 73736
 vless://100fc429-4824-482e-ad2c-ce70d25e11cc@snapp.ir:8080?path=/&security=none&encryption=none&host=simorgh.darerio.ir&type=ws#t.me/ConfigFori  -  Config 73737
-vless://132bcf1f-123f-4839-8ee0-7d88bba5590d@85.198.8.179:8080?path=/&security=none&encryption=none&host=subali.alitajidadashi.top&type=ws#🇮🇷37011 | ⚡️Telegram = t.me/SOSkeyNET
-vless://132bcf1f-123f-4839-8ee0-7d88bba5590d@85.198.8.179:8080?path=/&security=none&encryption=none&host=subali.alitajidadashi.top&type=ws#🔵@chillguy_vpn
 vless://156c3200-265d-4257-9fa1-45a0fd1dfcb0@varzesh3.com:80?path=/ws&security=none&encryption=none&host=nobody.fasterspeed.ir&type=ws#t.me/ConfigFori  -  Config 73740
 vless://16d59f55-2cf7-49f0-81af-c6df88bb2976@snapp.ir:80?type=ws&encryption=none&path=/&host=do.pupload.ir&security=none#@Pirimod
 vless://1e35b4bf-b270-4c0b-918d-62746eedd2ad@104.18.32.47:80?path=/?ed&security=none&encryption=none&host=EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.&type=ws#@KAFING_2
 vless://1f5358e8-f57c-44b8-9864-9c236672fbc8@185.143.233.235:80?path=/&security=none&encryption=none&host=d.nsa03.com&type=ws#t.me/ConfigFori  -  Config 73741
 vless://2153025d-4ad1-4db3-b72d-4a999504d213@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
-vless://21ed2e0f-e99d-4d4c-abcd-9880a5edc430@snapp.ir:8080?encryption=none&host=cloud.tokyoservice.ir&path=/&security=none&type=ws#🇮🇷37023 | ⚡️Telegram = t.me/SOSkeyNET
-vless://21ed2e0f-e99d-4d4c-abcd-9880a5edc430@snapp.ir:8080?path=/&security=none&encryption=none&host=cloud.tokyoservice.ir&type=ws#🔵@chillguy_vpn
 vless://23adc6b0-dcf7-4bef-8136-72d2c566b1c5@185.146.173.58:8080?type=ws&path=/telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048&host=Kanal-polproxy.Vipnufilter.Online.&security=none#Germany 🇩🇪 Telgram @Sobi_vpn
 vless://293c516b-6b2f-494a-8d62-9bf3c2eafbf8@VPNshop666:8080?encryption=none&host=DAN.BOSBEDETOTO.SITE&path=/&security=none&type=ws#VIP-2ku0zjfr-1.00GB📊-300D⏳
 vless://293c516b-6b2f-494a-8d62-9bf3c2eafbf8@VPNshop666:8080?encryption=none&host=DAN.BOSBEDETOTO.SITE&path=/&security=none&type=ws#VIP-2ku0zjfr-1.00GB📊-300D⏳  رایگان استفاده کنید❤️🙏
-vless://2a7650c1-e3e7-4b4d-8c23-960e45e327c0@snappfood.ir:8080?encryption=none&security=none&type=ws&host=farland.molanashooms.ir&path=/#🔵@chillguy_vpn
+vless://2af75a89-3c3e-42d0-9f4e-b2aea5c54148@snapp.ir:80?path=/&security=none&encryption=none&host=srv.diamond-theBEST.online&type=ws#NormanV2ray-62
 vless://2af75a89-3c3e-42d0-9f4e-b2aea5c54148@snapp.ir:80?path=/&security=none&encryption=none&host=srv.diamond-theBEST.online&type=ws#✅Tel: @Proxy_Vpney (8)
 vless://2d461e79-7a79-4891-83c8-b34d5ad48251@varzesh3.com:80?type=ws&path=/&host=kabotar.garfar.ir&security=none#@imokping
 vless://300b4103-c39f-49d5-ab40-b1922621ae9f@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
@@ -31,20 +30,18 @@ vless://358e8d08-65f0-4ef3-9686-7dfb16211439@varzesh3.com:80?type=ws&encryption=
 vless://36d51eae-04be-473f-9a34-096e2f466826@varzesh3.com:80?type=ws&encryption=none&path=/ws&host=nobody.fasterspeed.ir&security=none#t.me/ConfigFori  -  Config 73730
 vless://36f018b5-c463-44b3-814f-217bfc5c519f@185.143.233.235:80?path=/&security=none&encryption=none&host=tow.pastebali.cam&type=ws#چنل عضو شو @v2ra_config
 vless://38622ab0-30b3-4458-9f60-f026737a0811@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?encryption=none&host=vip.yaml7.ggff.net&path=/+@ProxyVPN11&security=none&type=ws#🇨🇦36994 | ⚡️Telegram = t.me/SOSkeyNET
 vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.20.6.134:80?encryption=none&type=ws&host=vip.yaml7.ggff.net&path=/+@ProxyVPN11&security=none#@Evay_vpn
 vless://39252e63-a06d-4b97-b0d0-1949cb15b3af@snapp.ir:80?path=/?ed=2080&security=none&encryption=none&host=na.avenflow.ir&type=ws#@appsooner کانال تلگرام 🕊️
-vless://39252e63-a06d-4b97-b0d0-1949cb15b3af@snapp.ir:80?path=/?ed=2080&security=none&encryption=none&host=na.avenflow.ir&type=ws#@filembad
-vless://39252e63-a06d-4b97-b0d0-1949cb15b3af@snapp.ir:80?security=none&type=ws&headerType=&path=/?ed=2080&host=na.avenflow.ir#@filembad
-vless://39252e63-a06d-4b97-b0d0-1949cb15b3af@snapp.ir:80?security=none&type=ws&headerType=&path=/?ed=2080&host=na.avenflow.ir#🇮🇷37055 | ⚡️Telegram = t.me/SOSkeyNET
 vless://3a9bf6ae-c95a-4215-84d3-83889998f90a@snapp.ir:80?encryption=none&type=ws&path=/&host=simorgh.garfar.ir#@V2rayng_Fast
 vless://3cbd560c-8063-4671-835b-47ba18a0f05f@199.232.57.91:80?encryption=none&type=ws&path=/?ed=80&host=jookeji.global.ssl.fastly.net#  ایرانسل 1
 vless://3debe751-c4e8-4848-aa78-70b95df3efd3@snapp.ir:80?security=&encryption=none&host=hub2.psychodelicoxytocin.ir&type=ws#ترکیبیConfixio@
 vless://3df85c24-8982-42bc-88e6-bca7ed8bdd5d@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
+vless://3f1e7d6a-db43-4ddd-9354-6bc0e584fe59@185.143.232.254:80?security=none&allowInsecure=0&encryption=none&type=ws&host=daravox.ir&path=/#🇩🇪 Germany | ⏱711ms | ⚡83KB/s | @NamazVPN
+vless://3f1e7d6a-db43-4ddd-9354-6bc0e584fe59@185.143.232.254:80?security=none&allowInsecure=0&encryption=none&type=ws&host=daravox.ir&path=/#🇩🇪 Germany | ⏱870ms | ⚡293KB/s | @NamazVPN
+vless://3f1e7d6a-db43-4ddd-9354-6bc0e584fe59@185.143.232.254:80?security=none&allowInsecure=0&encryption=none&type=ws&host=daravox.ir&path=/#🇮🇷37316 | ⚡️Telegram = t.me/SOSkeyNET
+vless://3f1e7d6a-db43-4ddd-9354-6bc0e584fe59@185.143.232.254:80?security=none&allowInsecure=0&encryption=none&type=ws&host=daravox.ir&path=/#🔵@chillguy_vpn
 vless://41ac3f4e-c27e-421a-a060-e13f9079f0e6@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
-vless://448f7620-8b97-452a-a5f0-67cc975ed699@snapp.ir:80?type=ws&path=/&host=kabotar.garfar.ir&security=none#🇮🇷36927 | ⚡️Telegram = t.me/SOSkeyNET
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.102:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#T.me/erfwp
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.143:80?encryption=none&type=ws&path=/&host=tt.andishehparenting.com#10https://t.me/ConfigX2ray
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.143:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#⚡@V2ray_official
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.143:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#@FREECONFIGSPLUS
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.143:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#T.me/erfwp
@@ -63,7 +60,6 @@ vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?ed=2048&eh=Sec-We
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?ed=2048&eh=Sec-WebSocket-Protocol&encryption=none&host=tt.andishehparenting.com&path=/&security=none&type=ws#🌝6@oneclickvpnkeys
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#@VpnFardad
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#@vmesskhodam
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#NetMeli9-111
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#@Proxy_Vpney (4)
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#@VPN_PASARGAD
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#@appsooner کانال تلگرام 🕊️
@@ -73,21 +69,17 @@ vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=n
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#🇨
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#🇨🇦 @V2ngFast
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#🇩🇪All¹³ | @meliproxyy
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#[66942] - Telegram : @V2All
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#filembad-96
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.2:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#🇨🇦36989 | ⚡️Telegram = t.me/SOSkeyNET
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.154.211:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#%3E%3E%40outline_vpn%3A%3AXX
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.66.44.211:80?encryption=none&host=tt.andishehparenting.com&security=none&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AXX
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.66.44.211:80?encryption=none&host=tt.andishehparenting.com&security=none&type=ws#🫜8@oneclickvpnkeys
-vless://4ef5db0f-73be-4ea9-b496-6ef1ed7ae2de@snapp.ir:80?path=/&security=&encryption=none&host=kabotar.garfar.ir&type=ws#🇮🇷36925 | ⚡️Telegram = t.me/SOSkeyNET
+vless://4e55bf82-958c-0a2b-f4a8-be1cd1a6d06e@cre.vipnor.xyz:8080?path=nr2&security=&encryption=none&host=nr2.vipnoor.com&type=ws#🇮🇷37197 | ⚡️Telegram = t.me/SOSkeyNET
+vless://4e55bf82-958c-0a2b-f4a8-be1cd1a6d06e@cre.vipnor.xyz:8080?path=nr2&security=&encryption=none&host=nr2.vipnoor.com&type=ws#🔵@chillguy_vpn
 vless://505997ba-cbdb-466e-a3ad-69c6a4553b38@140.248.159.164:80?path=/containers/fi&security=none&encryption=none&host=ahlekarbala.global.ssl.fastly.net&type=ws#Telegram : @V2ynpv
 vless://505997ba-cbdb-466e-a3ad-69c6a4553b38@151.101.25.242:80?path=/containers/fi&security=none&encryption=none&host=pizzabama.global.ssl.fastly.net&type=ws#Telegram : @V2ynpv
-vless://5187db21-7bed-4846-a67d-eda3a0cdc2f5@snapp.ir:8080?path=/moz&security=none&encryption=none&host=moz.tecnotech.ir&type=ws#🔵@config_free2
-vless://52aa097b-57a8-4493-b571-a5804b71f12f@speedtest.net:80?encryption=none&type=ws&path=/&host=neszjzfeshab.global.ssl.fastly.net#24https://t.me/ConfigX2ray
 vless://52aa097b-57a8-4493-b571-a5804b71f12f@speedtest.net:80?encryption=none&type=ws&path=/&host=neszjzfeshab.global.ssl.fastly.net#🦉@FreeConfigForYou
 vless://55a72093-b567-49a3-bd56-c3a38e9c37b4@snapp.ir:80?type=ws&encryption=none&path=/&host=arix.subio.ir&security=none#DarkForce-VIP-Subio
 vless://58abb273-16cb-4115-907e-3cf05e885ca2@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
-vless://5b6e7300-8fc8-404e-8dc9-40a5393dd881@fx3033.game2lizard.com:80?encryption=none&security=none&type=ws&host=line.smartphone1.azazilvpn.sbs&path=/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560#@farsiproxy
 vless://5b6e7300-8fc8-404e-8dc9-40a5393dd881@fx3033.game2lizard.com:80?encryption=none&type=ws&path=/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560&host=line.smartphone1.azazilvpn.sbs#​
 vless://5b6e7300-8fc8-404e-8dc9-40a5393dd881@fx3033.game2lizard.com:80?path=%2FXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn%3Fed%3D2560&security=&encryption=none&host=line.smartphone1.azazilvpn.sbs&type=ws#%3E%3E%40configV2rayNG%3A%3ADE
 vless://5b6e7300-8fc8-404e-8dc9-40a5393dd881@fx3033.game2lizard.com:80?path=/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560&security=none&encryption=none&host=line.smartphone1.azazilvpn.sbs&type=ws#Telegram | @ProxyEliteVPN
@@ -95,33 +87,27 @@ vless://5b6e7300-8fc8-404e-8dc9-40a5393dd881@fx3033.game2lizard.com:80?path=/XnX
 vless://5b6e7300-8fc8-404e-8dc9-40a5393dd881@mkh.olampiavarz.ir:80?path=/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560&security=none&encryption=none&host=line.smartphone1.azazilvpn.sbs&type=ws#@icv2ray
 vless://5cc52d58-bdf1-4332-b863-a3f95dc67d74@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
 vless://63390a80-dc17-4ce2-bd9f-c406bd118cc1@snapp.ir:80?type=ws&security=none&path=/&host=derakhshan.molvliafor.ir#HooshNet-8324595607
-vless://63616265-3632-4564-a663-643336386264@185.143.233.176:80?type=ws&host=dl.tgmovie.bond&path=/l/w/aXD2QyDdS6vRQpxs?ed=2047&security=none#🇮🇷37076 | ⚡️Telegram = t.me/SOSkeyNET
+vless://6546d528-03a6-432b-a915-512fcd7c663b@useredge1.noroozmobarak.com:80?security=none&allowInsecure=0&encryption=none&type=ws&host=gostar26.badabanshop123.com&path=/webpanel#🇮🇷37306 | ⚡️Telegram = t.me/SOSkeyNET
+vless://6546d528-03a6-432b-a915-512fcd7c663b@useredge1.noroozmobarak.com:80?security=none&allowInsecure=0&encryption=none&type=ws&host=gostar26.badabanshop123.com&path=/webpanel#🇮🇷37307 | ⚡️Telegram = t.me/SOSkeyNET
+vless://6546d528-03a6-432b-a915-512fcd7c663b@useredge1.noroozmobarak.com:80?security=none&allowInsecure=0&encryption=none&type=ws&host=gostar26.badabanshop123.com&path=/webpanel#🔵@chillguy_vpn
 vless://698e61df-7e3f-44fc-b0c4-f8248e2b16ab@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
 vless://698e61df-7e3f-44fc-b0c4-f8248e2b16ab@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#✅Tel: @Proxy_Vpney (6)
 vless://69ac30ba-c264-4350-87fe-62e132032e16@199.232.57.91:80?encryption=none&type=ws&path=/&host=nleiyajji.global.ssl.fastly.net#ایرانسل 2
 vless://6a2405d9-61e2-4c74-a638-b2e2899e1995@snapp.ir:80?path=/&security=none&encryption=none&host=pa1.ghostantaniehh.ir&type=ws#t.me/ConfigFori  -  Config 73739
 vless://70c51123-7fbe-4ed0-a074-1e92f4c6c88a@anten.ir:80?path=/&security=none&encryption=none&host=P2.nazshap.ir&type=ws#spiderxman69
-vless://70c51123-7fbe-4ed0-a074-1e92f4c6c88a@anten.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&host=P2.nazshap.ir&path=/#🔵@chillguy_vpn
 vless://71eba8ce-2ea8-48c4-9371-76c73a3d2632@varzesh3.com:80?type=ws&path=/&host=kabotar.garfar.ir&security=none#@imokping
 vless://73c02b8f-5420-4739-bc48-1ec43c3ffcbc@snapp.ir:80?type=ws&security=none&path=/&host=derakhshan.molvliafor.ir# به کانال مابپیوندید@khazan_news
 vless://74d113e5-8493-4636-8407-4fe6e4eb08d0@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#@SayanStoree
-vless://7556a25f-a362-4784-b048-04ec12d2a142@snappfood.ir:80?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&type=ws&encryption=none&path=/m&host=mz.goodphilips.ir&security=none#@GozargahAzad|🇮🇷
-vless://7556a25f-a362-4784-b048-04ec12d2a142@snappfood.ir:80?type=ws&encryption=none&path=/m&host=mz.goodphilips.ir&security=none#🇩🇪 Germany Frankfurt am Main | ⏱320ms | ⚡989KB/s | @NamazVPN
-vless://7556a25f-a362-4784-b048-04ec12d2a142@snappfood.ir:80?type=ws&encryption=none&path=/m&host=mz.goodphilips.ir&security=none#🇩🇪 Germany Frankfurt am Main | ⏱757ms | ⚡703KB/s | @NamazVPN
-vless://7556a25f-a362-4784-b048-04ec12d2a142@snappfood.ir:80?type=ws&encryption=none&path=/m&host=mz.goodphilips.ir&security=none#🇮🇷37078 | ⚡️Telegram = t.me/SOSkeyNET
 vless://76289801-6fa4-4bf5-a9f6-23450b8a1daa@varzesh3.com:80?type=ws&path=/&host=kabotar.garfar.ir&security=none#@Pirimod
-vless://778dc759-46d5-48fd-808e-4ce7dc1032c8@wallex.ir:80?path=/&security=none&encryption=none&host=us1.nexat.ir&type=ws#V2rayng_Fast
 vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?&security=false&fp=chrome&type=ws&headerType=none&host=Asaaabi.global.ssl.fastly.net&path=/#@@FreeConffning
 vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?path=/&security=none&encryption=none&host=Asaaabi.global.ssl.fastly.net&type=ws#@InfoTech_VK3
 vless://7af8dab1-d68b-4311-b586-24baf2224b57@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
 vless://7c73dcfa-9e57-4ae8-aca5-00a99c06dc0f@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
 vless://7fad1bad-4930-464c-9516-b1dee556b9f9@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#@SayanStoree
-vless://80da7cb6-bc54-4b0a-a453-f23b56c2e1fa@varzesh3.com:80?type=ws&encryption=none&path=/navigate/de?ed=2550&host=pydeveloper.ir&security=none#🇮🇷36945 | ⚡️Telegram = t.me/SOSkeyNET
 vless://8135074a-49d9-46da-b79d-b58d2b9dcb6a@185.143.233.235:80?type=ws&encryption=none&path=/ytugihaowlndawobd&host=blitbegir.ir&security=none#StrStark-@Fr33C0nfig
 vless://85df0ad4-8818-4aa5-9799-4bb7232de9e0@ip1-fast.tyryqyserver.ir:80?path=/?ed=2052&security=none&encryption=none&host=tamamde1.global.ssl.fastly.net&type=ws#@v2rayconfigamir 4914
 vless://85df0ad4-8818-4aa5-9799-4bb7232de9e0@ip3-fast.tyryqyserver.ir:80?path=/?ed=2052&security=none&encryption=none&host=tamamde1.global.ssl.fastly.net&type=ws#@v2rayconfigamir 2636
 vless://8621d630-f584-4239-b77a-897bca2e20e9@varzesh3.com:80?type=ws&path=/&host=kabotar.garfar.ir&security=none#@imokping
-vless://88be2bdf-6643-4b36-bc1c-fca1f868651d@snapp.ir:80?path=/&security=&encryption=none&host=kabotar.garfar.ir&type=ws#🇮🇷36926 | ⚡️Telegram = t.me/SOSkeyNET
 vless://8968718e-bf35-454f-b1ce-4f622883eae1@midibznim.pesarkhob.com:8080/?type=ws&encryption=none&path=/&host=midibznim.pesarkhob.com&security=none#🩸VPNshop666
 vless://8968718e-bf35-454f-b1ce-4f622883eae1@midibznim.pesarkhob.com:8080/?type=ws&encryption=none&path=/&host=midibznim.pesarkhob.com&security=none#🩸VPNshop666  به عشق خودتون❤️
 vless://8c4c4dc4-77ee-459c-ae5b-76c835fc6b5d@varzesh3.com:8080?path=/&security=none&encryption=none&host=pnl1.hudron.ir&type=ws#V2rayng_Fast
@@ -133,6 +119,7 @@ vless://942469ee-7f8e-443d-bfd2-4f8b1faa5970@199.232.57.91:80?encryption=none&ty
 vless://98c918a8-b647-43df-ad4f-3d33db2137b3@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
 vless://997b5119-c015-4203-b402-0eb0f60b77c3@204.168.234.22:80?encryption=none&host=nobody.fastspeed.ir&path=%2Fws&security=none&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AFI
 vless://997b5119-c015-4203-b402-0eb0f60b77c3@204.168.234.22:80?encryption=none&host=nobody.fastspeed.ir&path=/ws&security=none&type=ws#🌝53@oneclickvpnkeys
+vless://9ac556c0-4636-473d-8880-b4db999c8bd1@chatgpt.com:80?path=/stream&security=none&encryption=none&host=cafe.rezynox.tr&type=ws#🇨🇦37361 | ⚡️Telegram = t.me/SOSkeyNET
 vless://9c3b8416-611a-440b-9b82-5e4fa5c4b3ee@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#@SayanStoree
 vless://9cdf541f-b8a0-4270-8d31-542bb0961485@snapp.ir:80?path=/&security=none&encryption=none&host=sidipv.naxd.ir&type=ws#@Nexus_v2ray📞
 vless://a2729b29-3e45-4331-8951-b294f2780a48@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#@SayanStoree
@@ -141,9 +128,6 @@ vless://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@104.21.48.147:80?path=/64.181.218.6
 vless://aef3e66f-7907-4430-85aa-39c9dd429686@anten.ir:80?encryption=none&security=none&type=ws&headerType=none&path=/games&host=sayeh.copershop.info#@canfigiop
 vless://b0155773-f2b3-4d65-911f-de76f4e44ed1@varzesh3.com:80?type=ws&encryption=none&path=/ws&host=nobody.fasterspeed.ir&security=none#t.me/ConfigFori  -  Config 73727
 vless://b270a6fd-0038-4544-acde-446b1af20cb7@185.143.233.217:80?path=/ws&security=none&encryption=none&host=s26.chehre-negar.ir&type=ws#@Black_Star_Vpn
-vless://b274a0b4-ffc9-406f-99a8-87a856a20447@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#V2rayng_Fast
-vless://b3fc2f25-d92c-4005-8c6b-8f10753154e4@snapp.ir:80?path=/&security=&encryption=none&host=kabotar.garfar.ir&type=ws#🇮🇷36928 | ⚡️Telegram = t.me/SOSkeyNET
-vless://b5bd7d6d-5ab9-4965-bccc-32acdbc4f714@finlndcdnkonkori.konkuriran.sbs:80?path=/&security=&encryption=none&host=fincd.konkuriran.sbs&type=ws#🔵@chillguy_vpn
 vless://ba642e98-3de2-409d-b129-e15767c175ee@varzesh3.com:80?type=ws&encryption=none&path=/ws&host=nobody.fasterspeed.ir&security=none#t.me/ConfigFori  -  Config 73729
 vless://ba642e98-3de2-409d-b129-e15767c175ee@varzesh3.com:80?type=ws&encryption=none&path=/ws&host=nobody.fasterspeed.ir&security=none#t.me/ConfigFori  -  Config 73732
 vless://be32aec6-9dde-4365-b574-2e0023462084@141.11.45.214:8080?encryption=none&host=net.hostingdata.ir&path=%2F&security=none&type=ws#%F0%9F%AB%9C55@oneclickvpnkeys
@@ -151,42 +135,25 @@ vless://be32aec6-9dde-4365-b574-2e0023462084@141.11.45.214:8080?path=/&security=
 vless://c0898128-cd43-4224-a4b5-80b2aadd1007@varzesh3.com:80/?type=ws&encryption=none&path=/&host=proto.helexm.ir&security=none#protiFi-6805
 vless://c0909646-31ce-49d5-8210-d03dbfa0294c@speedtest.net:80?encryption=none&type=ws&path=/&host=my-server-test.global.fastly.net#​
 vless://c16c1cc7-62d3-48cb-9aba-58db58bf9b7a@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#@SayanStoree
+vless://c190d56a-38fb-4abd-aed5-78d9690cc3fb@snapp.ir:80?path=/&security=none&encryption=none&host=hoosh.sabasarmaye.ir&type=ws#@VPN_PASARGAD
+vless://c190d56a-38fb-4abd-aed5-78d9690cc3fb@snapp.ir:80?type=ws&security=none&encryption=none&path=/&host=hoosh.sabasarmaye.ir#🔵 @config_free2
 vless://c9f70294-642b-453e-933a-20b70823d452@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
 vless://ca4da98c-7851-4a9c-9bc0-874e406ef774@snapp.ir:8080?type=ws&security=none&path=/user/login&host=vip.falnqiro.ir#ترکیبیConfixio@
 vless://ca5062f5-58e3-497b-8755-0e071c01b897@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
 vless://ca8b0272-942e-4f8d-85b4-2d2e93579ebb@user.angurnet.ir:8080?security=none&type=ws&path=/user2&host=user.angurnet.ir&packetEncoding=xudp&encryption=none#@canfigiop
 vless://cef2e5c6-23d6-415a-ac38-8d96e10b9053@connect.nyxserver.ir:80?path=/arvan-tuel&security=none&encryption=none&host=connect.nyxserver.ir&type=ws#@tanhanet @ai_duet
 vless://cef2e5c6-23d6-415a-ac38-8d96e10b9053@connect.nyxserver.ir:80?path=/arvan-tuel&security=none&encryption=none&host=connect.nyxserver.ir&type=ws#@tanhanet @ai_duet  لطفا وصل شدید ری اکشن بزنید حتما و حتما بزنید @ai_duet
-vless://cfe0ff1d-fbdf-4d1f-a4b3-1dfa4481a103@snapp.ir:80?path=/?ed=2080&security=&encryption=none&host=na.avenflow.ir&type=ws#V2rayng_Fast
-vless://d4d57b7d-c442-4919-9eb1-81b398cf06b4@snappfood.ir:80?type=ws&encryption=none&path=/m&host=mz.goodphilips.ir&security=none#🇮🇷36917 | ⚡️Telegram = t.me/SOSkeyNET
 vless://d9bb30ad-1e19-4aac-aec4-4dd602bb5d75@snapp.ir:80?path=/status&security=&encryption=none&host=vip.digikallamall.ir&type=ws#@Vpn_jet7
-vless://d9f1ba3c-46f0-449e-b683-f9c1b938e347@Nn.sonhan.cloud:80?encryption=none&type=ws&path=/&host=Nn.sobhan.cam#@VPN_PASARGAD
 vless://dc7b8019-893f-4583-b95c-044b1f9696f4@dl4.paycollection.lol:80?path=/flutter&security=&encryption=none&host=dl4.paycollection.lol&type=ws#t.me/ConfigFori  -  Config 73746
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?encryption=none&host=de.vpnbase.net&path=%2Fhttp&security=none&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
 vless://dd1d8a4a-4e64-470c-9a80-0e00aa187f41@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
-vless://dd5cba91-634a-4ca9-a52d-5294487a74cf@130.185.120.239:80?encryption=none&host=2.naxm.ir&path=/&security=none&type=ws#🦉@FreeConfigForYou
 vless://dfa2cc54-b04c-4f0a-abb2-af94982884d6@blubank.ir:80?path=/&security=none&encryption=none&host=meli2.masterdadeh.ir&type=ws#@hi_proxy_iran :👈کانال تلگرام
 vless://dfa2cc54-b04c-4f0a-abb2-af94982884d6@blubank.ir:80?path=/&security=none&encryption=none&host=meli2.masterdadeh.ir&type=ws#@meliproxyy
 vless://e16d126f-682c-4bb9-a0da-243b23f9f030@snapp.ir:80?type=ws&security=none&path=/&host=derakhshan.molvliafor.ir#HooshNet-8324595607
 vless://e3517613-e8ca-4982-a2a9-39e90fe4b052@snapp.ir:80?type=ws&security=none&encryption=none&path=/&host=hoosh.sabasarmaye.ir#@oliver_soul
-vless://e3517613-e8ca-4982-a2a9-39e90fe4b052@snapp.ir:80?type=ws&security=none&encryption=none&path=/&host=hoosh.sabasarmaye.ir#@sogoandfuckyourlove
-vless://e3517613-e8ca-4982-a2a9-39e90fe4b052@snapp.ir:80?type=ws&security=none&encryption=none&path=/&host=hoosh.sabasarmaye.ir#@spiderxman69
 vless://e6a32d27-6613-4daf-b2d1-145cd2f8a245@snapp.ir:80?type=ws&security=none&encryption=none&path=/&host=hoosh.sabasarmaye.ir#@SHOP_GAMING1011
-vless://e6a32d27-6613-4daf-b2d1-145cd2f8a245@snapp.ir:80?type=ws&security=none&encryption=none&path=/&host=hoosh.sabasarmaye.ir#🇮🇷36975 | ⚡️Telegram = t.me/SOSkeyNET
 vless://e9f2e9d2-2b25-41a8-8334-14e692c907d7@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
-vless://f5c5c5fe-5834-438b-b0cb-ffe616766b45@blubank.ir:80/?type=ws&encryption=none&path=/&host=s3.tehranionliine.ir&security=none#🇮🇷36992 | ⚡️Telegram = t.me/SOSkeyNET
-vless://f5c5c5fe-5834-438b-b0cb-ffe616766b45@blubank.ir:80/?type=ws&encryption=none&path=/&host=s3.tehranionliine.ir&security=none#🇹🇷 Türkiye Istanbul | ⏱566ms | ⚡648KB/s | @NamazVPN
-vless://f5c5c5fe-5834-438b-b0cb-ffe616766b45@blubank.ir:80?encryption=none&type=ws&path=/&host=s3.tehranionliine.ir#🇹🇷 Türkiye Istanbul | ⏱3525ms | ⚡743KB/s | @NamazVPN
-vless://f5c5c5fe-5834-438b-b0cb-ffe616766b45@blubank.ir:80?encryption=none&type=ws&path=/&host=s3.tehranionliine.ir#🇹🇷 Türkiye Istanbul | ⏱5800ms | ⚡454KB/s | @NamazVPN
-vless://f5c5c5fe-5834-438b-b0cb-ffe616766b45@blubank.ir:80?encryption=none&type=ws&path=/&host=s3.tehranionliine.ir#🇹🇷 Türkiye Istanbul | ⏱8776ms | ⚡444KB/s | @NamazVPN
-vless://f5c5c5fe-5834-438b-b0cb-ffe616766b45@blubank.ir:80?path=/&security=none&encryption=none&host=s3.tehranionliine.ir&type=ws#🇹🇷 Türkiye Istanbul | ⏱5804ms | ⚡846KB/s | @NamazVPN
-vless://f5c5c5fe-5834-438b-b0cb-ffe616766b45@blubank.ir:80?path=/&security=none&encryption=none&host=s3.tehranionliine.ir&type=ws#🇹🇷 Türkiye Istanbul | ⏱760ms | ⚡246KB/s | @NamazVPN
-vless://f5c5c5fe-5834-438b-b0cb-ffe616766b45@blubank.ir:80?path=/&security=none&encryption=none&host=s3.tehranionliine.ir&type=ws#🇹🇷 Türkiye Istanbul | ⏱766ms | ⚡118KB/s | @NamazVPN
 vless://f8350fad-7a29-46d6-bd24-05ea87e7dee0@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#@SayanStoree
-vless://fc8e882d-e5e1-49e7-96c5-9a33540033ac@anten.ir:8080?encryption=none&host=cloud.tokyoservice.ir&path=/&security=none&type=ws#🇮🇷37024 | ⚡️Telegram = t.me/SOSkeyNET
-vless://fc8e882d-e5e1-49e7-96c5-9a33540033ac@anten.ir:8080?encryption=none&host=cloud.tokyoservice.ir&path=/&security=none&type=ws#🔵@chillguy_vpn
-vless://fc8e882d-e5e1-49e7-96c5-9a33540033ac@bmi.ir:8080?encryption=none&host=cloud.tokyoservice.ir&path=/&security=none&type=ws#🇮🇷37025 | ⚡️Telegram = t.me/SOSkeyNET
-vless://fc8e882d-e5e1-49e7-96c5-9a33540033ac@varzesh3.com:8080?encryption=none&host=cloud.tokyoservice.ir&path=/&security=none&type=ws#🇮🇷37019 | ⚡️Telegram = t.me/SOSkeyNET
 vless://ff121be2-3882-46e2-a3fe-346ae85cf10f@snapp.ir:80?path=/&security=none&encryption=none&host=kabotar.garfar.ir&type=ws#@SayanStoree
 vless://ff246f65-8ecf-4e08-901e-3a15e09c68d0@varzesh3.com:80?type=ws&path=/&host=kabotar.garfar.ir&security=none#@imokping
 vless://ff9177e6-7609-4d9c-a3f8-3e91bb0f7da6@snapp.ir:80?path=/&security=none&encryption=none&host=simorgh.garfar.ir&type=ws#@SayanStoree
