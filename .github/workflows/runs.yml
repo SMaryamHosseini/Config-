@@ -1,48 +1,30 @@
-name: run-filter
+name: Update Subscription
 
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: '*/30 * * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: setup python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: install deps
-        run: pip install requests
+      - run: pip install requests
 
-      - name: run filter
-        run: python filter.py
+      - run: python filter.py
 
-      - name: git config
+      - name: Commit
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-      - name: add files
-        run: |
-          git add mci.txt irancell.txt dead.txt || true
-
-      - name: commit
-        run: |
-          git commit -m "update ISP results" || echo "no changes"
-
-      - name: pull rebase safe
-        run: |
-          git pull --rebase origin main || true
-
-      - name: push
-        run: |
-          git push origin main || true
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add sub.txt
+          git commit -m "update sub" || exit 0
+          git push
