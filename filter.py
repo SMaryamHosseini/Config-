@@ -76,7 +76,7 @@ def clean_host(host):
     return host.split(":")[0].strip()
 
 
-# download + decode sub
+# download + decode
 raw = urllib.request.urlopen(SOURCE, timeout=30).read().decode()
 
 decoded = base64.b64decode(raw).decode("utf-8", errors="ignore")
@@ -96,14 +96,19 @@ for line in decoded.splitlines():
 
     for name, prefixes in NETWORKS.items():
         if host.startswith(tuple(prefixes)):
-            results[name].append(line)
+            results[name].append((host, line))  # store host + config
 
 
-# write output files
-for name, configs in results.items():
+# write outputs
+for name, items in results.items():
 
-    # remove duplicates (exact same line)
-    unique_configs = list(dict.fromkeys(configs))
+    # dedupe by HOST (روش 2)
+    unique = {}
+    for host, cfg in items:
+        if host not in unique:
+            unique[host] = cfg
+
+    unique_configs = list(unique.values())
 
     encoded = base64.b64encode(
         "\n".join(unique_configs).encode()
@@ -112,4 +117,4 @@ for name, configs in results.items():
     with open(f"{name}.txt", "w", encoding="utf-8") as f:
         f.write(encoded)
 
-    print(f"{name}: {len(configs)} -> {len(unique_configs)}")
+    print(f"{name}: {len(items)} -> {len(unique_configs)}")
