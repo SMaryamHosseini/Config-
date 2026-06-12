@@ -1,39 +1,139 @@
-import requests
-import socket
+import base64
+import json
+import urllib.request
 from urllib.parse import urlparse
 
 SOURCE = "https://raw.githubusercontent.com/barry-far/V2ray-config/main/All_Configs_base64_Sub.txt"
 
-ALLOWED = {
-    150,104,23,172,162,141,198,192,190,156,66,82,37,45,
-    1,173,2,95,184,92,199,167,151,146,140,185,157,34,205
+NETWORKS = {
+    "Asia": [
+        "185.",
+        "104.",
+        "23.",
+        "34.",
+    ],
+
+    "MCI": [
+        "23.",
+        "184.",
+        "2.",
+        "95.",
+         "96.",
+         "173.",
+         "172.",
+         "92.",
+         "104.",
+         "170.",
+         "162.",
+         "185.",
+         "45.",
+         "188.",
+         "37.",
+        "190.",
+        "1.",
+        "82.",
+        "141.",
+        "91.",
+        "159.",
+        "108.",
+        "216.",
+        "198.",
+        "62.",
+        "140.",
+        "151.",
+        "199.",
+        "167.",
+        "146.",
+        "13.",
+        "54.",
+            ],
+
+    "Samantel": [
+        "2.",
+        "23.",
+        "34.",
+        "92.",
+        "104.",
+        "141.",
+        "162.",
+        "167.",
+        "172.",
+        "185.",
+        "190.",
+        "199.",
+    ],
+      "Mobinnet": [
+        "2.",
+        "23.",
+        "34.",
+        "104.",
+        "151.",
+        "167.",
+        "172.",
+        "184.",
+        "199.",
+    ],
 }
 
-def get_host(link):
+
+def get_host(line):
     try:
-        return urlparse(link).hostname
-    except:
-        return None
+        if line.startswith(("vless://", "trojan://")):
+            return urlparse(line).hostname
 
-text = requests.get(SOURCE, timeout=60).text
+        if line.startswith("vmess://"):
+            raw = line[8:]
+            raw += "=" * (-len(raw) % 4)
 
-result = []
+            data = json.loads(
+                base64.b64decode(raw).decode(
+                    "utf-8",
+                    errors="ignore"
+                )
+            )
 
-for line in text.splitlines():
-    line = line.strip()
-
-    host = get_host(line)
-    if not host:
-        continue
-
-    try:
-        ip = socket.gethostbyname(host)
-
-        if int(ip.split('.')[0]) in ALLOWED:
-            result.append(line)
+            return data.get("add")
 
     except:
         pass
 
-with open("sub.txt", "w", encoding="utf-8") as f:
-    f.write("\n".join(result))
+    return None
+
+
+raw = urllib.request.urlopen(SOURCE, timeout=30).read().decode()
+
+decoded = base64.b64decode(raw).decode(
+    "utf-8",
+    errors="ignore"
+)
+
+results = {name: [] for name in NETWORKS}
+
+for line in decoded.splitlines():
+
+    line = line.strip()
+
+    if not line:
+        continue
+
+    host = get_host(line)
+
+    if not host:
+        continue
+
+    for name, prefixes in NETWORKS.items():
+
+        if host.startswith(tuple(prefixes)):
+            results[name].append(line)
+
+
+for name, configs in results.items():
+
+    encoded = base64.b64encode(
+        "\n".join(configs).encode()
+    ).decode()
+
+    with open(f"{name}.txt", "w", encoding="utf-8") as f:
+        f.write(encoded)
+
+    print(name, len(configs))
